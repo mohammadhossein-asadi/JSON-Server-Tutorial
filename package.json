@@ -1,0 +1,24 @@
+{
+  "name": "json-server-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-json": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadhossein-asadi/JSON-Server-Tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadhossein-asadi/JSON-Server-Tutorial/issues"
+  },
+  "homepage": "https://github.com/mohammadhossein-asadi/JSON-Server-Tutorial#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
