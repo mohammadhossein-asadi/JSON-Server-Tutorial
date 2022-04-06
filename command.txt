@@ -1,0 +1,18 @@
+
+GET Request =>
+/ id number
+
+example => localhost:3000/reviews/1
+
+
+Filtering =>
+
+/products?category=electronics&discount.type=shipping
+
+example => localhost:3000/products?category=electronics&discount.type=shipping
+
+Sorting =>
+
+/products?_sort=price,category&_order=desc,asc
+
+example => localhost:3000/products?_sort=price,category&_order=desc,asc
