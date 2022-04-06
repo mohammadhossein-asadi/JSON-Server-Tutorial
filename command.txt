@@ -23,3 +23,10 @@ Pagination =>
 /products?_page=2
 
 example => http://localhost:3000/products?_page=2
+
+
+Limit =>
+
+/products?_page=1&_limit=2
+
+example => http://localhost:3000/products?_page=1&_limit=2
