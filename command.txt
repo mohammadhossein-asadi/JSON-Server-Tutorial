@@ -16,3 +16,10 @@ Sorting =>
 /products?_sort=price,category&_order=desc,asc
 
 example => localhost:3000/products?_sort=price,category&_order=desc,asc
+
+
+Pagination =>
+
+/products?_page=2
+
+example => http://localhost:3000/products?_page=2
