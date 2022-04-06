@@ -29,4 +29,7 @@ Limit =>
 
 /products?_page=1&_limit=2
 
-example => http://localhost:3000/products?_page=1&_limit=2
+example =>
+
+Page 1 ==== http://localhost:3000/products?_page=1&_limit=2 
+Page 2 ==== http://localhost:3000/products?_page=2&_limit=2 
