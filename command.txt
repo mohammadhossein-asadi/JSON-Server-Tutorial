@@ -1,0 +1,57 @@
+
+GET Request =>
+/ id number
+
+example => localhost:3000/reviews/1
+
+
+Filtering =>
+
+/products?category=electronics&discount.type=shipping
+
+example => localhost:3000/products?category=electronics&discount.type=shipping
+
+Sorting =>
+
+/products?_sort=price,category&_order=desc,asc
+
+example => localhost:3000/products?_sort=price,category&_order=desc,asc
+
+
+Pagination =>
+
+/products?_page=2
+
+example => http://localhost:3000/products?_page=2
+
+
+Limit =>
+
+/products?_page=1&_limit=2
+
+example =>
+
+Page 1 ==== http://localhost:3000/products?_page=1&_limit=2 
+Page 2 ==== http://localhost:3000/products?_page=2&_limit=2 
+
+& etc.
+
+
+Operators =>
+
+/products?price_gte=2000&price_lte=6000
+
+example => 
+
+http://localhost:3000/products?price_gte=2000&price_lte=6000  (gte => greather than // lte less down)
+
+
+http://localhost:3000/products?id_ne=1 (ne == noe equal)
+
+Regex filter => 
+
+/products?category_like=^f
+
+example => 
+
+http://localhost:3000/products?category_like=^f
